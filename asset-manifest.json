@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-hooks/static/css/main.c824ed0d.chunk.css",
+    "main.js": "/react-hooks/static/js/main.3699a007.chunk.js",
+    "main.js.map": "/react-hooks/static/js/main.3699a007.chunk.js.map",
+    "runtime-main.js": "/react-hooks/static/js/runtime-main.b1985978.js",
+    "runtime-main.js.map": "/react-hooks/static/js/runtime-main.b1985978.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/react-hooks/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.50db401e.chunk.js": "/react-hooks/static/js/2.50db401e.chunk.js",
+    "static/js/2.50db401e.chunk.js.map": "/react-hooks/static/js/2.50db401e.chunk.js.map",
+    "static/js/3.45c7a9bf.chunk.js": "/react-hooks/static/js/3.45c7a9bf.chunk.js",
+    "static/js/3.45c7a9bf.chunk.js.map": "/react-hooks/static/js/3.45c7a9bf.chunk.js.map",
+    "index.html": "/react-hooks/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/react-hooks/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.c824ed0d.chunk.css.map": "/react-hooks/static/css/main.c824ed0d.chunk.css.map",
+    "static/js/2.50db401e.chunk.js.LICENSE.txt": "/react-hooks/static/js/2.50db401e.chunk.js.LICENSE.txt",
+    "static/media/img3.29ae5a8b.png": "/react-hooks/static/media/img3.29ae5a8b.png",
+    "static/media/App.css": "/react-hooks/static/media/pexels-rodnae-productions-6192561.20d254d1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1985978.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.50db401e.chunk.js",
+    "static/css/main.c824ed0d.chunk.css",
+    "static/js/main.3699a007.chunk.js"
+  ]
+}
