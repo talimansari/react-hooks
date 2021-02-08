@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+:root{
+  --white:#fff;
+  --balack:#000;
+  --main:#ff6e68;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav{
+    height: 70px;
+    box-shadow: 0 5px 20px 2px rgba(0,0,0,.1);
+}
+.nav_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.banner{
+  background-image: url("../src/images/pexels-rodnae-productions-6192561.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.nav_left img{
+  width:65px;
+}
+.basket {
+  font-size: 24px;
+  color: var(--main);
+  position: relative;
+}
+.basket span{
+  font-size: 12px;
+  position: absolute;
+  background-color: var(--balack);
+  height: 20px;
+  width: 20px;
+  left:13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--white);
+  top:-6px;
+}
+/* ----product-section---- */
+.product_img{
+ width: 100%;height:300px;
+ overflow: hidden;
+}
+.product_img img:hover{
+  transform: scale(1.3);
+}
+.price span{
+   color: var(--main);
+   font-size: 13px;
+   vertical-align: text-bottom;
+   margin-left: 5px;
+}
+/* --details--page----- */
+.detail_img img{
+  width: 100%;
+}
+.detail_quantity{
+  border: 1px solid #000;
+  display: inline-block;
+}
+.detail_quantity button{
+   padding: 10px;
+   border: 0;
+   background: unset;
+}
+.detail_quantity span{
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  display: inline-block;
+  padding: 16px;
+}
+/* ---calculator----- */
+.keyboard button{
+  padding: 10px;
+  border: 1px solid;
+}
+.calcu_wrap input{
+  width: 100%;
+  padding: 10px;
+}
+.calcu_wrap {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.keyboard{
+  display: grid;
+  grid-template-columns:  2fr 2fr 1fr;
+}
