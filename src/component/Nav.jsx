@@ -15,6 +15,7 @@ const Nav = () => {
                       <h3><NavLink exact to="/calcu">Calculator</NavLink></h3>
                       <h3><NavLink exact to="/todoapp">Todo</NavLink></h3>
                       <h3><NavLink exact to="/form">Form</NavLink></h3>
+                      <h3><NavLink exact to="/livesearch">Live Search</NavLink></h3>
                     <div className="nav_right">
                         <NavLink exact to="/cart">
                             <div className="basket">

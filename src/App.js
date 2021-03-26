@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import store from "./store";
+import {store,persistor} from "./store";
+import { PersistGate } from "redux-persist/integration/react";
 import { Provider } from "react-redux";
 import './App.css';
 import Nav from "./component/Nav";
@@ -10,11 +11,13 @@ import Details from './component/Details';
 import Calculator from './component/Calculator';
 import TodoApp from './component/TodoApp';
 import Form from './component/Form';
+import LiveSearch from './component/LiveSearch';
 
 const App = () => {
    return (
       <>
       <Provider store={store}>
+         <PersistGate loading={null} persistor={persistor}>
          <Nav />
          <main>
             <Switch>
@@ -23,11 +26,13 @@ const App = () => {
                <Route exact path="/cart" component={Cart}  />
                <Route exact path="/details/:id" component={Details}  />
                <Route exact path="/calcu" component={Calculator}  />
+               <Route exact path="/livesearch" component={LiveSearch}  />
                <Route exact path="/todoapp" component={TodoApp}  />
                <Route exact path="/form" component={Form}  />
-               </Provider>
+              </Provider>
             </Switch>
          </main>
+         </PersistGate>
          </Provider>
       </>
    );
